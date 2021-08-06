@@ -1,0 +1,157 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.title{
+    text-align: center;
+    padding: 5px;
+}
+.container{
+    width: 100%;
+    height: 320px ;
+  /* background: dodgerblue;*/
+    margin: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.item{
+    border: 1px solid rgb(177, 177, 177);
+   /* width: 25%; */
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+    padding: 5px;
+    border-radius: 15px;
+    color:white;
+    justify-content: center;
+    position:relative;
+}
+
+.item > h1{
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 17pt;
+text-align: center;
+position: relative;
+top:40%;
+font-weight: normal;
+
+
+}
+
+.item > h5{
+    text-align: center;
+    color:floralwhite;
+    margin-bottom: 2px;
+}
+
+.item > img{
+    width: 70%;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+
+}
+
+.item > ul{
+    list-style: none;
+
+}
+
+.item > ul > li{
+   
+    font-size: 12px;
+    text-align: center;
+
+    
+}
+
+#logo{
+    float:left;
+}
+
+.cabecera {
+    margin: 0 auto; 
+   /* background: #67bae0 ; */
+}
+
+ul {    
+    word-spacing: 50px;
+    padding: 20px;
+    /* background:#041264; */
+    letter-spacing: 2px;
+}
+
+li {
+    display: inline;
+} 
+
+a:link {
+    text-decoration: none;
+  }
+
+  a {
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    
+  } 
+
+  #footer{
+    width: 100%;
+    height: 40px ;
+  /* background: dodgerblue;*/
+    margin: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    /*background-color:#33EBFF ;*/
+    background-color:#2CCADB ;
+    color:white;
+    font-size:40px;
+}
+
+#logo-img {
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+
+#nav-bar{
+    
+    background-color:#2CCADB ;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+.item{
+    align-content: center;
+}
+
+.item-fondo-rosado{
+    background-color: rgb(235, 196, 235);
+}
+.item-fondo-turquesa{
+    background-color: rgb(157, 230, 240);
+}
+
+.item-fondo-azul{
+    background-color: rgb(157, 183, 240);
+}
+
+.titulo-grande{
+    font-size: 40pt;
+    font-weight: bolder;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
